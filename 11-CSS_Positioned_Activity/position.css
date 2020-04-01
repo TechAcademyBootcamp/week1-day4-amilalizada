@@ -1,0 +1,39 @@
+ *{
+margin:0%;
+padding:0%
+}
+.container{
+    width:65%;
+    /* top:100px; */
+    margin:auto;
+    margin-top:50px;
+}
+#fx{
+    position:fixed;
+    width:300px;
+    height: 150px;
+    background-color: #eee;
+    left:69px;
+    top:0;
+}
+.parent{
+    position: relative;
+    width: 100%%;
+    height: 200px;;
+    background-color:#eee; 
+
+
+}
+.child{
+    position: absolute;
+    background-color:black;
+    padding:30px;
+    width:145px;
+    height: 50px;
+    bottom: 0px;
+    right: -45px;
+
+}
+h1{
+    margin-bottom: 25px;
+}
